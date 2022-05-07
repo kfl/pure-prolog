@@ -25,7 +25,7 @@ library:
 
 # A simple command-line driver that uses the library
 executable:
-  main: Main.hs
+  main: src/Main.hs
   dependencies:
     - pure-prolog
     - cmdargs
